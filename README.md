@@ -11,27 +11,27 @@ Treinar um modelo de redes neurais para classificação de dados de risco de cr�
 Testes empíricos com vários modelos diferentes, onde cada um deles será avaliado através de métricas comuns e investigado através de um grid search.  
   
 ### Parâmetros comuns a todos os métodos:  
-Épocas = 10.000  
-Paciência = 20  
+- Épocas = 10.000  
+- Paciência = 20  
 ### Métricas de avaliação: 
-   KS
-   MSE
-   Matriz de Confusão
-   Auroc
-   Classification-Report (Recall, Precision e F-Measure)
+   -KS
+   -MSE
+   -Matriz de Confusão
+   -Auroc
+   -Classification-Report (Recall, Precision e F-Measure)
 
 ### Passo 1:
-MLP:  
-Optimizers: [SGD, Adam, Adagrad]  
-LRs: [0.005, 0.015, 0.3]  
-Hidden Layers: [1,2]  
-Numbers of neurons: [5,30,100]  
-Activation Function on Hidden Layer: [ReLU, Sigmoid, Tanh]  
+- MLP:  
+-- Optimizers: [SGD, Adam, Adagrad]  
+-- LRs: [0.005, 0.015, 0.3]  
+-- Hidden Layers: [1,2]  
+-- Numbers of neurons: [5,30,100]  
+-- Activation Function on Hidden Layer: [ReLU, Sigmoid, Tanh]  
   
-Random Forests:
+- Random Forests:
   
 ### Passo 2:  
-Esemble de MLPs  
-Gradient Boosting  
-Esemble de classificadores  
-SVM  
+- Esemble de MLPs  
+- Gradient Boosting  
+- Esemble de classificadores  
+- SVM  
