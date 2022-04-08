@@ -14,11 +14,11 @@ Testes empíricos com vários modelos diferentes, onde cada um deles será avali
 - Épocas = 10.000  
 - Paciência = 20  
 ### Métricas de avaliação: 
-   -KS
-   -MSE
-   -Matriz de Confusão
-   -Auroc
-   -Classification-Report (Recall, Precision e F-Measure)
+   - KS
+   - MSE
+   - Matriz de Confusão
+   - Auroc
+   - Classification-Report (Recall, Precision e F-Measure)
 
 ### Passo 1:
 - MLP:  
