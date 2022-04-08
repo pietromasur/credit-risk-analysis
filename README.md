@@ -8,7 +8,7 @@ Objetivo:
 Treinar um modelo de redes neurais para classificação de dados de risco de crédito.
 
 ## Metodologia:  
-Testes empíricos com vários modelos diferentes, onde cada um deles será avaliado através de métricas comuns e investigado através de um grid search.  
+Testes empíricos com modelos diferentes: cada um deles será avaliado através de métricas comuns e investigado através de um grid search.  
   
 ### Parâmetros comuns a todos os métodos:  
 - Épocas = 10.000  
