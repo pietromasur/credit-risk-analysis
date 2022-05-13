@@ -33,9 +33,9 @@ Testes empíricos com modelos diferentes: cada um deles será avaliado através 
 ### Passo 2:  
 - Esemble de MLPs  
 - Gradient Boosting  
--- LRs: [0.0001, 0.0005, 0.005, 0.01, 0.04]
--- Number of Estimators:[200, 500, 800, 1000, 1200, 1500]
--- Min Number Samples in Leaf: [0.05, 0.08]
--- Depth:[3,10]
+-- LRs: [0.0001, 0.0005, 0.005, 0.01, 0.04]  
+-- Number of Estimators:[200, 500, 800, 1000, 1200, 1500]  
+-- Min Number Samples in Leaf: [0.05, 0.08]  
+-- Depth:[3,10]  
 - Esemble de classificadores  
 - SVM  
